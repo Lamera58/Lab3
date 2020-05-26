@@ -1,0 +1,632 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>eUseSystem @ViewBag.Title</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+
+    @Styles.Render("~/bundles/op/css")
+    @Styles.Render("~/bundles/font-awesome/css")
+    @Styles.Render("~/bundles/animate/css")
+
+    @Styles.Render("~/bundles/jqt/css")
+    @Styles.Render("~/bundles/owlt/css")
+    @Styles.Render("~/bundles/owlc/css")
+    @Styles.Render("~/bundles/mp/css")
+    @Styles.Render("~/bundles/iconm/css")
+    @Styles.Render("~/bundles/iconc/css")
+    @Styles.Render("~/bundles/bmb/css")
+    @Styles.Render("~/bundles/flat/css")
+    @Styles.Render("~/bundles/style/css")
+
+
+   @if (IsSectionDefined("Styles"))
+   { @RenderSection("Styles", required:false)}
+
+@Styles.Render("~/bundles/main/css")
+</head>
+<body>
+
+
+    <div class="page">
+        <nav id="colorlib-main-nav" role="navigation">
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+            <div class="js-fullheight colorlib-table">
+                <div class="img" style="background-image: url(images/JjhQFx19J4A.jpg);"></div>
+                <div class="colorlib-table-cell js-fullheight">
+                    <div class="row no-gutters">
+                        <div class="col-md-12 text-center">
+                            <h1 class="mb-4"><a href="index.html" class="logo">xenia<br><span>Vizaje</span></a></h1>
+                            <ul>
+                                <li class="active"><a href="index.html"><span><small>01</small>Home</span></a></li>
+                                <li><a href="model.html"><span><small>02</small>Performance</span></a></li>
+                                <li><a href="blog.html"><span><small>03</small>Cosmetic</span></a></li>
+                                <li><a href="contact.html"><span><small>04</small>Contact</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="colorlib-page">
+            <header>
+                <div class="colorlib-navbar-brand">
+                    <a class="colorlib-logo" href="index.html">Vizaje<br><span>Xenia</span></a>
+                </div>
+                <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+            </header>
+
+            <section class="home-slider owl-carousel">
+
+                <div class="slider-item" style="background-image: url('images/fon001.jpg');">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text justify-content-start align-items-center" data-scrollax-parent="true">
+                            <div class="col-md-8 col-lg-7 col-sm-12 ftco-animate text mb-4" data-scrollax=" properties: { translateY: '70%' }">
+                                <span class="position">Make up</span>
+                                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Xenia</h1>
+                                <div class="d-md-flex models-info mt-5 mb-5">
+                                    <div>
+                                        <p>Lips</p>
+                                        <span>---</span>
+                                    </div>
+                                    <div>
+                                        <p>Hair</p>
+                                        <span>---</span>
+                                    </div>
+                                    <div>
+                                        <p>Eyes</p>
+                                        <span>---</span>
+                                    </div>
+
+                                </div>
+                                <p><a href="#" class="btn btn-primary px-4 py-3">Read more</a> <a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">View Gallery</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item" style="background-image: url('images/fon002.jpg');">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text justify-content-start align-items-center" data-scrollax-parent="true">
+                            <div class="col-md-8 col-lg-7 col-sm-12 ftco-animate text mb-4" data-scrollax=" properties: { translateY: '70%' }">
+                                <span class="position">Make up</span>
+                                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Xenia</h1>
+                                <div class="d-md-flex models-info mt-5 mb-5">
+                                    <div>
+                                        <p>Lips</p>
+                                        <span>---</span>
+                                    </div>
+                                    <div>
+                                        <p>Hair</p>
+                                        <span>---</span>
+                                    </div>
+                                    <div>
+                                        <p>Eyes</p>
+                                        <span>---</span>
+                                    </div>
+
+                                </div>
+                                <p><a href="#" class="btn btn-primary px-4 py-3">Read more</a> <a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">View Gallery</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="slider-item" style="background-image: url('images/c2.jpg');">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text justify-content-start align-items-center" data-scrollax-parent="true">
+                            <div class="col-md-8 col-lg-7 col-sm-12 ftco-animate text mb-4" data-scrollax=" properties: { translateY: '70%' }">
+                                <span class="position">Make up</span>
+                                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Xenia</h1>
+                                <div class="d-md-flex models-info mt-5 mb-5">
+                                    <div>
+                                        <p>Lips</p>
+                                        <span>---</span>
+                                    </div>
+                                    <div>
+                                        <p>Hair</p>
+                                        <span>---</span>
+                                    </div>
+                                    <div>
+                                        <p>Eyes</p>
+                                        <span>---</span>
+                                    </div>
+
+                                </div>
+                                <p><a href="#" class="btn btn-primary px-4 py-3">Read more</a> <a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">View Gallery</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item" style="background-image: url('images/fon005.jpg');">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text justify-content-start align-items-center" data-scrollax-parent="true">
+                            <div class="col-md-8 col-lg-7 col-sm-12 ftco-animate text mb-4" data-scrollax=" properties: { translateY: '70%' }">
+                                <span class="position">Make up</span>
+                                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Xenia</h1>
+                                <div class="d-md-flex models-info mt-5 mb-5">
+                                    <div>
+                                        <p>Lips</p>
+                                        <span>---</span>
+                                    </div>
+                                    <div>
+                                        <p>Hair</p>
+                                        <span>---</span>
+                                    </div>
+                                    <div>
+                                        <p>Eyes</p>
+                                        <span>---</span>
+                                    </div>
+
+                                </div>
+                                <p><a href="#" class="btn btn-primary px-4 py-3">Read more</a> <a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">View Gallery</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item" style="background-image: url('images/fon8.jpg');">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text justify-content-start align-items-center" data-scrollax-parent="true">
+                            <div class="col-md-8 col-lg-7 col-sm-12 ftco-animate text mb-4" data-scrollax=" properties: { translateY: '70%' }">
+                                <span class="position">Make up</span>
+                                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Xenia</h1>
+                                <div class="d-md-flex models-info mt-5 mb-5">
+                                    <div>
+                                        <p>Lips</p>
+                                        <span>---</span>
+                                    </div>
+                                    <div>
+                                        <p>Highlight</p>
+                                        <span>---</span>
+                                    </div>
+                                    <div>
+                                        <p>Hair</p>
+                                        <span>---</span>
+                                    </div>
+                                </div>
+                                <p><a href="#" class="btn btn-primary px-4 py-3">Read more</a> <a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">View Gallery</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <!-- END slider -->
+
+            <section class="ftco-section-2">
+                <div class="container-fluid">
+                    <div class="section-2-blocks-wrapper d-flex row no-gutters">
+                        <div class="img col-md-6 ftco-animate" style="background-image: url('images/fon4.jpg');">
+                        </div>
+                        <div class="text col-md-6 ftco-animate">
+                            <div class="text-inner align-self-start">
+
+                                <h3 class="heading">You can look perfect</h3>
+                                <p> Мотивационный текст о мэйке. Причины делать мэйк.</p>
+                                <ul class="my-4">
+                                    <li><span class="ion-ios-checkmark-circle mr-2"></span> 1</li>
+                                    <li><span class="ion-ios-checkmark-circle mr-2"></span> 2</li>
+                                    <li><span class="ion-ios-checkmark-circle mr-2"></span> 3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ftco-section-2">
+                <div class="container-fluid">
+                    <div class="row d-flex no-gutters">
+                        <div class="col-md-6 d-flex align-items-center heading-section ftco-animate bg-light">
+                            <div class="col-md-9">
+                                <div class="p-5">
+                                    <h2 class="mb-4">My works</h2>
+                                    <p>Beauty power </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 model-entry ftco-animate">
+                            <div class="model-img" style="background-image: url(images/9i9vY6YIIx4.jpg);">
+                                <div class="name">
+                                    <h3><a href="model-single.html">Valery</a></h3>
+                                </div>
+                                <div class="text">
+                                    <h3><a href="model-single.html">Lera</a></h3>
+                                    <div class="d-flex models-info">
+                                        <div class="pr-md-3">
+                                            <p>Age</p>
+                                            <span>18</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 model-entry ftco-animate">
+                            <div class="model-img" style="background-image: url(images/P8o7nMHBSNM.jpg);">
+                                <div class="name">
+                                    <h3><a href="model-single.html">July</a></h3>
+                                </div>
+                                <div class="text">
+                                    <h3><a href="model-single.html">Jy</a></h3>
+                                    <div class="d-flex models-info">
+                                        <div class="pr-md-3">
+                                            <p>Age</p>
+                                            <span>19</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 model-entry ftco-animate">
+                            <div class="model-img" style="background-image: url(images/NYJ5c0hOB9I.jpg);">
+                                <div class="name">
+                                    <h3><a href="model-single.html">Vlada?</a></h3>
+                                </div>
+                                <div class="text">
+                                    <h3><a href="model-single.html">Hui poimi kto</a></h3>
+                                    <div class="d-flex models-info">
+                                        <div class="pr-md-3">
+                                            <p>Age</p>
+                                            <span>18</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 model-entry ftco-animate">
+                            <div class="model-img" style="background-image: url(images/BTu3UHNz6hk.jpg);">
+                                <div class="name">
+                                    <h3><a href="model-single.html">Milana</a></h3>
+                                </div>
+                                <div class="text">
+                                    <h3><a href="model-single.html">Cyka</a></h3>
+                                    <div class="d-flex models-info">
+                                        <div class="pr-md-3">
+                                            <p>Height</p>
+                                            <span>185</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 model-entry ftco-animate">
+                            <div class="model-img" style="background-image: url(images/qyKiQkyjO-Y.jpg);">
+                                <div class="name">
+                                    <h3><a href="model-single.html">Tanea</a></h3>
+                                </div>
+                                <div class="text">
+                                    <h3><a href="model-single.html">TT</a></h3>
+                                    <div class="d-flex models-info">
+                                        <div class="pr-md-3">
+                                            <p>Age</p>
+                                            <span>18</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 d-flex justify-content-center align-items-center bg-light ftco-animate">
+                            <div class="btn-view">
+                                <p><a href="model.html">View more</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="ftco-section testimony-section img" style="background-image: url(images/fon.jpg);">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-7 mb-5 text-center heading-section ftco-animate">
+                            <h2 class="mb-4">Clients Says</h2>
+                            <p>Make up </p>
+                        </div>
+                    </div>
+                    <div class="row d-md-flex justify-content-center">
+                        <div class="col-md-7 ftco-animate">
+                            <div class="carousel-testimony owl-carousel">
+                                <div class="item">
+                                    <div class="testimony-wrap text-center">
+                                        <div class="user-img mb-5" style="background-image: url(images/BTu3UHNz6hk.jpg)">
+                                            <span class="quote d-flex align-items-center justify-content-center">
+                                                <i class="icon-quote-left"></i>
+                                            </span>
+                                        </div>
+                                        <div class="text">
+                                            <p class="mb-5">Very good work performance</p>
+                                            <p class="name">Milana</p>
+                                            <span class="position">22.08.19</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimony-wrap text-center">
+                                        <div class="user-img mb-5" style="background-image: url(images/NYJ5c0hOB9I.jpg)">
+                                            <span class="quote d-flex align-items-center justify-content-center">
+                                                <i class="icon-quote-left"></i>
+                                            </span>
+                                        </div>
+                                        <div class="text">
+                                            <p class="mb-5">About feelings</p>
+                                            <p class="name">Vlada</p>
+                                            <span class="position">27.08.19</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimony-wrap text-center">
+                                        <div class="user-img mb-5" style="background-image: url(images/9i9vY6YIIx4.jpg)">
+                                            <span class="quote d-flex align-items-center justify-content-center">
+                                                <i class="icon-quote-left"></i>
+                                            </span>
+                                        </div>
+                                        <div class="text">
+                                            <p class="mb-5">So good</p>
+                                            <p class="name">Valery</p>
+                                            <span class="position">05.09.19</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ftco-section-2">
+                <div class="container-fluid">
+                    <div class="section-2-blocks-wrapper d-flex row no-gutters">
+                        <div class="img col-md-6 ftco-animate" style="background-image: url('images/fon2.jpg'); ">
+                        </div>
+                        <div class="text col-md-6 ftco-animate">
+                            <div class="text-inner align-self-start">
+
+                                <h3 class="heading">Services</h3>
+                                <div class="services d-flex ftco-animate">
+                                    <div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-quality"></span></div>
+                                    <div class="info ml-4">
+                                        <h3>Make up</h3>
+                                        <p>Perfect</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="services d-flex ftco-animate">
+                                    <div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-shopping-bag"></span></div>
+                                    <div class="info ml-4">
+                                        <h3>Cosmetic choise</h3>
+                                        <p>Assistence in searching</p>
+                                    </div>
+                                </div>
+                                <div class="services d-flex ftco-animate">
+                                    <div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-photo-camera"></span></div>
+                                    <div class="info ml-4">
+                                        <h3>Photo Shots</h3>
+                                        <p>Set your beauty forever</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ftco-section">
+                <div class="container">
+                    <div class="row d-flex">
+                        <div class="col-md-3 mb-5 heading-section ftco-animate">
+                            <h2 class="mb-4">Cosmetic</h2>
+                            <p class="mb-5">My sweets </p>
+                            <p class="btn-view"><a href="blog.html">View more</a></p>
+                        </div>
+                        <div class="col-md-3 d-flex ftco-animate">
+                            <div class="blog-entry align-self-stretch">
+                                <a class="block-20" style="background-image: url('images/1.jpg');">
+                                </a>
+                                <div class="text pt-4 d-block">
+                                    <h3 class="heading mt-3"><a href="#">Nyx</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 d-flex ftco-animate">
+                            <div class="blog-entry align-self-stretch">
+                                <a class="block-20" style="background-image: url('images/2.jpg');">
+                                </a>
+                                <div class="text pt-4 d-block">
+
+                                    <h3 class="heading mt-3"><a href="#">Inglot</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 d-flex ftco-animate">
+                            <div class="blog-entry align-self-stretch">
+                                <a class="block-20" style="background-image: url('images/3.jpg');">
+                                </a>
+                                <div class="text pt-4 d-block">
+
+                                    <h3 class="heading mt-3"><a href="#">Mac</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ftco-quote ftco-animate">
+                <div class="container">
+                    <div class="row d-flex">
+                        <div class="col-md-9 req-quote py-5 align-items-center img" style="background-image: url(images/fon002.jpg);">
+                            <h3 class="ml-md-3">Wanna a make up?</h3>
+                            <span class="ml-md-3"><a href="contact.html">Call us now!</a></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <footer class="ftco-footer ftco-section img">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-md-3">
+                            <div class="ftco-footer-widget mb-4">
+                                <h2 class="ftco-heading-2">Vizaje</h2>
+                                <p>Far far away, behind the word mountains, hidden country of beauty.</p>
+                                <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                                    <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=100016150982024"><span class="icon-facebook"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="ftco-footer-widget mb-4">
+                                <h2 class="ftco-heading-2">Performance</h2>
+                                <div class="block-21 mb-4 d-flex">
+                                    <a class="blog-img mr-4" style="background-image: url(images/qyKiQkyjO-Y.jpg);"></a>
+                                    <div class="text">
+                                        <h3 class="heading"><a href="#">From client</a></h3>
+                                        <div class="meta">
+                                            <div><a href="#"><span class="icon-calendar"></span> August 18, 2019</a></div>
+                                            <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-21 mb-4 d-flex">
+                                    <a class="blog-img mr-4" style="background-image: url(images/NYJ5c0hOB9I.jpg);"></a>
+                                    <div class="text">
+                                        <h3 class="heading"><a href="#">From client</a></h3>
+                                        <div class="meta">
+                                            <div><a href="#"><span class="icon-calendar"></span> August 22, 2019</a></div>
+                                            <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="ftco-footer-widget mb-4 ml-md-4">
+                                <h2 class="ftco-heading-2">Site Links</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="ingex.html" class="py-2 d-block">Home</a></li>
+                                    <li><a href="model.html" class="py-2 d-block">Works</a></li>
+                                    <li><a href="blog.html" class="py-2 d-block">Cosmetic</a></li>
+                                    <li><a href="contact.html" class="py-2 d-block">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="ftco-footer-widget mb-4">
+                                <h2 class="ftco-heading-2">Have a Questions?</h2>
+                                <div class="block-23 mb-3">
+                                    <ul>
+                                        <li><span class="icon icon-map-marker"></span><span class="text">Chisinau</span></li>
+                                        <li><span class="icon icon-phone"></span><span class="text">+373 79 12 10 12</span><</li>
+                                        <li><span class="icon icon-envelope"></span><span class="text">eliemax16@mail.ru</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+
+                            <p>
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- loader -->
+            <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalRequest" tabindex="-1" role="dialog" aria-labelledby="modalRequestLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalRequestLabel">Request a Quote</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="appointment_name" class="text-black">Full Name</label>
+                                <input type="text" class="form-control" id="appointment_name">
+                            </div>
+                            <div class="form-group">
+                                <label for="appointment_email" class="text-black">Email</label>
+                                <input type="text" class="form-control" id="appointment_email">
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="appointment_date" class="text-black">Date</label>
+                                        <input type="text" class="form-control" id="appointment_date">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="appointment_time" class="text-black">Time</label>
+                                        <input type="text" class="form-control" id="appointment_time">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="appointment_message" class="text-black">Message</label>
+                                <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Send Message" class="btn btn-primary">
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @Scripts.Render("~/bundles/jquery/js")
+    @Scripts.Render("~/bundles/popper/js")
+    @Scripts.Render("~/bundles/bootstrap/js")
+    @Scripts.Render("~/bundles/scrollax/js")
+    @Scripts.Render("~/bundles/sowl/js")
+    @Scripts.Render("~/bundles/main/js")
+    @Scripts.Render("~/bundles/ais/js")
+
+    @RenderSection("scripts", required:false )
+
+</body>
+</html>
